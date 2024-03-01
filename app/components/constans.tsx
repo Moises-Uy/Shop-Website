@@ -11,7 +11,7 @@ export const SIDENAV_ITEMS: SideNav[] = [
   {
     title: "Shop",
     path: "/shop",
-    icon: <Icon icon="material-symbols:space-dashboard" />,
+    icon: <Icon icon="icon-park-outline:shopping" />,
     submenu: true,
     subMenuItems: [
       {
@@ -24,13 +24,13 @@ export const SIDENAV_ITEMS: SideNav[] = [
   {
     title: "Profile",
     path: "/profile",
-    icon: <Icon icon="material-symbols:space-dashboard" />,
+    icon: <Icon icon="iconamoon:profile" />,
   },
 
   {
     title: "Setting",
     path: "/setting",
-    icon: <Icon icon="material-symbols:space-dashboard" />,
+    icon: <Icon icon="ep:setting" />,
     submenu: true,
     subMenuItems: [
       { title: "Account", path: "/setting/account" },
