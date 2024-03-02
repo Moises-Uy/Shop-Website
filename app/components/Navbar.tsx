@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SIDENAV_ITEMS } from "./constans";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   return (
@@ -9,6 +10,7 @@ export default function Navbar() {
       <nav>
         <div className="flex flex-col space-y-10 w-full text-white">
           <h1 className="text-4xl">Hello Stan</h1>
+          <SearchBar />
           <div>
             <ul className="space-y-5">
               {SIDENAV_ITEMS.map((item, index) => (
